@@ -8,6 +8,6 @@ if st.button("おみくじを引く"):
     st.write(f"結果:{result}")
 
 if st.button("今日のラッキーカラー"):
-    result=["赤","青","黄色","緑","紫","黒","白"]
+    results=["赤","青","黄色","緑","紫","黒","白"]
     result=random.choice(results)
     st.write(f"結果:{result}")
